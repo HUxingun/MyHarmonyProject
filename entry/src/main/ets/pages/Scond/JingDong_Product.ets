@@ -1,0 +1,37 @@
+@Entry
+@Component
+struct JingDong_ProDuct {
+  private images: string[] = [
+    '/images/chaoshi.png', '/images/fushi.png', '/images/shengxian.png',
+    '/images/paimai.png', '/images/woerma.png', '/images/guoji.png',
+    '/images/dianqi.png', '/images/car.png', '/images/chongzhi.png',
+    '/images/jiankang.png', '/images/paipai.png', '/images/plus.png',
+    '/images/gengduo.png'
+  ]
+  private titles: string[] = [
+    '京东超市', '美妆服饰', '京东生鲜', '京东拍卖', '沃尔玛',
+    '京东国际', '京东电器', '买车养车', '充值中心', '运动健康',
+    '拍拍二手', 'Plus 会员', '更多频道'
+  ]
+  build() {
+    Column() {
+      List() {
+        ForEach(this.images, (item: string, index: number) => {
+          ListItem() {
+            Column({ space: 5 }) {
+              Image(item).height(25)
+              Text(this.titles[index])
+                .fontSize(14)
+                .fontColor('#727070')
+            }
+          }.width('20%')
+        }, (item: string) => item)
+      }
+      .height(120)
+      .lanes(2)
+      .listDirection(Axis.Horizontal)
+      .scrollBar(BarState.Off)
+    }
+    .padding({ top: 10 })
+  }
+}

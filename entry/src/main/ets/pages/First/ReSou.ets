@@ -1,0 +1,72 @@
+@Entry
+@Component
+struct ReSou {
+  build() {
+    Column(){
+      Row(){
+        Text('1')
+          .fontSize(18)
+          .fontColor('#F40')
+          .margin({left:20,right:10})
+        Text('41岁C罗告别世界杯')
+          .fontSize(16)
+          .fontColor('#4BA0E8')
+          .margin({right:10})
+        Text('独家')
+          .backgroundColor(Color.Pink)
+          .fontColor(Color.White)
+          .fontSize(14)
+          .borderRadius(4)
+          .fontWeight(10)
+          .padding(1)
+      }.width('100%').margin(5)
+      Row(){
+        Text('2')
+          .fontSize(18)
+          .fontColor('#F40')
+          .margin({left:20,right:10})
+        Text('广西南宁洪灾已致4死8失联')
+          .fontSize(16)
+          .fontColor('#4BA0E8')
+          .margin({right:10})
+        Text('热')
+          .backgroundColor('#FF2442')
+          .fontColor(Color.White)
+          .fontSize(14)
+          .borderRadius(4)
+          .fontWeight(10)
+          .padding(1)
+      }.width('100%').margin(5)
+      Row(){
+        Text('3')
+          .fontSize(18)
+          .fontColor('#F40')
+          .margin({left:20,right:10})
+        Text('高中生第一人称参加方程式比赛')
+          .fontSize(16)
+          .fontColor('#4BA0E8')
+          .margin({right:10})
+        Text('新')
+          .backgroundColor('#F40')
+          .fontColor(Color.White)
+          .fontSize(14)
+          .borderRadius(4)
+          .fontWeight(10)
+          .padding(1)
+      }.width('100%').margin(5)
+      Row(){
+        Text('4')
+          .fontSize(18)
+          .fontColor(Color.Yellow)
+          .margin({left:20,right:10})
+        Text('为啥台风美莎克这么厉害')
+          .fontSize(16)
+          .fontColor('#4BA0E8')
+          .margin({right:10})
+
+      }.width('100%').margin(5)
+    }
+    .height('100%')
+    .width('100%')
+  }
+}

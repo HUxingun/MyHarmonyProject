@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "FruitMaLLAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "FruitMaLLAbility_label",
+      "value": "label"
+    }
+  ]
+}

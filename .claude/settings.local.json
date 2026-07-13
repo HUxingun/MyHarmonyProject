@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp -r \"F:/备份/huxinyue1120245709/entry\" \"F:/huxinyue1120245709/\")",
+      "Bash(cp -r \"F:/备份/huxinyue1120245709/FruitMaLL\" \"F:/huxinyue1120245709/\")"
+    ]
+  }
+}

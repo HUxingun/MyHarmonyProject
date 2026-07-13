@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "PageAndData",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "PageAndDataAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "routerMap": "$profile:route_map",
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "PageAndDataAbility",
+        "srcEntry": "./ets/pageanddataability/PageAndDataAbility.ets",
+        "description": "$string:PageAndDataAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:PageAndDataAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
