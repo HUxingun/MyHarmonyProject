@@ -37,6 +37,16 @@
     "pages/Fif/BuilderDemo",
     "pages/Fif/XiaoMi_zhuye",
     "pages/Fif/GridItemDemo",
-    "pages/Fif/GridDemo"
+    "pages/Fif/GridDemo",
+    "pages/Six/ScrollableDemo",
+    "pages/Six/XiaoMi_Scroll",
+    "pages/Six/JingDong_Scroller",
+    "pages/Six/TabsDemo",
+    "pages/Six/TabBarDemo",
+    "pages/Six/HomePage",
+    "pages/Six/SheetDemo",
+    "pages/Six/bindContentCoverDemo",
+    "pages/Six/ListGroupDemo",
+    "pages/Six/BKCityContent"
   ]
 }
