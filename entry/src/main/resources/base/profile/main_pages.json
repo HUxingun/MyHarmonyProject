@@ -47,6 +47,13 @@
     "pages/Six/SheetDemo",
     "pages/Six/bindContentCoverDemo",
     "pages/Six/ListGroupDemo",
-    "pages/Six/BKCityContent"
+    "pages/Six/BKCityContent",
+    "pages/Seve/SideBarContainer_DEMO",
+    "pages/Seve/Animation_DEMO",
+    "pages/Seve/AniMation_DEMO2",
+    "pages/Seve/ImageAnimatorDemo",
+    "pages/Seve/YanZM",
+    "pages/Seve/Date01",
+    "pages/Seve/Product_BC"
   ]
 }
