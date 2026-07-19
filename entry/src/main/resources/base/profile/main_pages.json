@@ -54,6 +54,16 @@
     "pages/Seve/ImageAnimatorDemo",
     "pages/Seve/YanZM",
     "pages/Seve/Date01",
-    "pages/Seve/Product_BC"
+    "pages/Seve/Product_BC",
+    "pages/Nin/ActorPage",
+    "pages/Nin/MoviePage",
+    "pages/Nin/HomePage",
+    "pages/Nin/Params",
+    "pages/Nin/Url/DetailPage",
+    "pages/Nin/Url/Home",
+    "pages/Nin/XCFDetailPage",
+    "pages/Nin/XCFDemo",
+    "pages/Nin/ShareHome",
+    "pages/Nin/SharedDetail"
   ]
 }

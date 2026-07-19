@@ -1,0 +1,26 @@
+{
+  "module": {
+    "name": "XiaoMiYouPin",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "XiaoMiYouPinAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "XiaoMiYouPinAbility",
+        "srcEntry": "./ets/xiaomiyoupinability/XiaoMiYouPinAbility.ets",
+        "description": "$string:XiaoMiYouPinAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:XiaoMiYouPinAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

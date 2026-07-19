@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/StartPage",
+    "pages/LoginPage",
+    "pages/TabMain",
+    "pages/CartPage",
+    "pages/MinePage",
+    "pages/GoodsDetailPage",
+    "pages/CategoryPage",
+    "pages/ActivePage"
+  ]
+}

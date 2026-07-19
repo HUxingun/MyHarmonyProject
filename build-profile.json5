@@ -61,6 +61,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "XiaoMiYouPin",
+      "srcPath": "./XiaoMiYouPin",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }
